@@ -1,0 +1,37 @@
+/* SkillsSection.css */
+#skills-section article > section {
+    font-family: "roboto mono", monospace;
+    font-size: 0.9em;
+    font-weight: light;
+    padding: 5px;
+    border: 2px solid var(--light-accent-color);
+    box-shadow: 5px 5px 0px 2px var(--light-accent-color);
+    white-space: nowrap;
+  }
+  
+  #skills-section article {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 0.5fr));
+    gap: 2em;
+  }
+  
+  article section {
+    min-width: 22em;
+    background-color: var(--background-color);
+  }
+  
+  article object {
+    height: 2.5em;
+    width: 1.5em;
+    margin-right: 0.5em;
+  }
+  
+  article li {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    font-family: "roboto mono";
+  }
+  
+  
+  
